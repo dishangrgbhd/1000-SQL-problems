@@ -1,4 +1,3 @@
--- PostgreSQL Solution
 SELECT s.name
 FROM sellers s
 JOIN products p ON s.seller_id = p.seller_id
